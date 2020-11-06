@@ -1835,7 +1835,12 @@ class Project:
         _link_id = _link.link_id
         _link.delete()
         print(
+<<<<<<< HEAD
             f"Deleted Link-ID: {_link_id} From node {node_a }, port: {port_a} <-->  to node {node_b}, port: {port_b} "
+=======
+            f"Deleted Link-ID: {_link_id} From node {node_a }, port: {port_a} <-->  "
+            f"to node {node_b}, port: {port_b}"
+>>>>>>> 9d8445d2f394b3b39d6bc3040662bb03d1e28b6a
         )
 
     @verify_connector_and_id
